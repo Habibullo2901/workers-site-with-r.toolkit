@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    gap: 20px;
+    background-color: rgba(177, 183, 195, 0.433);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    color: grey;
+    transition: 0.5s;
+}
+
+.active > .icon {
+    color: rgb(42, 46, 77);
+    padding: 5px;
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 50%;
+}
